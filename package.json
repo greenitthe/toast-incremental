@@ -1,0 +1,16 @@
+{
+  "name": "incremental-starter",
+  "version": "1.0.0",
+  "description": "Starter for incremental game based on mongo (mongoose), pug, express, and socket.io",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James <greenitthe@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "pug": "*",
+    "socket.io": "*"
+  }
+}

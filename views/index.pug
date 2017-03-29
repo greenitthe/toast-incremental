@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title="Trumps - The Game"
+    link(rel="stylesheet" href="/styles.css")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    script(src="//cdn.socket.io/socket.io-1.4.5.js")
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js")
+    script(src="/clientScript.js")
+  body
+    Main
+      div#headingStuff
+        h1="A Game"
+      nav#navbar
+        ul
+          li#gamePage.active
+            ="Game"
+          li#instructions.hidden
+            ="Instructions"
+          li#account.hidden
+            ="Account"
+      div#game
+        canvas#gameCanvas(width="800", height="600")
