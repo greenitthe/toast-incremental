@@ -284,6 +284,6 @@ io.on('connection', function (socket) {
 });
 
 // Have the Express application listen for incoming requests on port 8080
-server.listen(8080, function() {
-  console.log('App listening on port 8080');
+server.listen(80, function() {
+  console.log('App listening on port 80');
 });
